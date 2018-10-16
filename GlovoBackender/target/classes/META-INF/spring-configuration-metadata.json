@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.glovoapp.backender.config.OrderProperties",
+      "name": "order",
+      "type": "com.glovoapp.backender.config.OrderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.glovoapp.backender.config.OrderProperties",
+      "name": "order.closer-distance-in-range",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "com.glovoapp.backender.config.OrderProperties",
+      "name": "order.distance-further-than",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "com.glovoapp.backender.config.OrderProperties",
+      "name": "order.filters",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.glovoapp.backender.config.OrderProperties",
+      "name": "order.i-t-e-m-s-r-e-q-u-i-r-e-g-l-o-v-o-b-o-x",
+      "type": "java.lang.String[]"
+    }
+  ]
+}
