@@ -73,11 +73,9 @@ class API {
 	@GetMapping("/courierOrders_withDetails")
 	@ResponseBody
 	public List<Order> courierOrders_withDetails(@RequestParam("courierId")  String courierId) {
-		return new ArrayList(orderRepository.getOrdersForCourier(courierId));
+		return new ArrayList<Order>(orderRepository.getOrdersForCourier(courierId));
 
 	}
-	
-	
 
 	public static void main(String[] args) {
 		SpringApplication.run(API.class, args);
